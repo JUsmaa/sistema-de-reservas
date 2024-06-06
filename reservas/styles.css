@@ -1,0 +1,130 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.image1 {
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ee2b7b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: hsl(323, 100%, 45%);
+}
+header {
+    position: relative;
+    display: wrap;
+
+}
+
+.logocontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    left: -76px;
+    top: -8px;
+
+}
+
+.Ticketcontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    left: 143px;
+}
+
+.platzicontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    display: flex;
+    display: wrap;
+    left: 123px;
+}
+
+.confamacontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    top: -12px;
+    left: 110px;
+}
+
+.campanitacontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    top: -9px;
+    left: 134px;
+
+}
+
+.mensajescontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    top: -10px;
+    left: 110px;
+}
+
+.ajustescontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    left: 86px;
+    top: -11px;
+}
+
+.personacontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    top: -11px;
+    left: 60px;
+}
+
+.platzi {
+    position: absolute;
+    left: 804px;
+    top:28px;
+}

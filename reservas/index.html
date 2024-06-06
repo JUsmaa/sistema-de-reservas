@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Reservas de Computadoras</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="bg-neutral-900	" id="contec">
+          <div class="px-4 py-1 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-4 lg:px-8">
+            <div class="relative flex items-center justify-between">
+              <a href="/" aria-label="Company" title="Company" class="inline-flex items-center">
+                <svg class="w-8 text-teal-accent-400" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2"
+                  stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
+    
+                </svg>
+                <nav class="logocontenedor">
+                  <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+                    <img
+                      src="https://edigital.cesde.edu.co/pluginfile.php/1/theme_ecesde/headerlogo1/1714514057/ecesde-escuela_digital.png"
+                      alt="" width="175" class="Logo">
+                  </span>
+                </nav>
+    
+              </a>
+              <ul class="flex items-center hidden space-x-8 lg:flex">
+                <nav class="Ticketcontenedor">
+                  <li><a href="/" aria-label="Our product" title="Our product"
+                      class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400">Ticket
+                      de ayuda</a></li>
+                </nav>
+    
+    
+                <a href=""><span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+                    <img src="img/platzy.jpg" alt="" width="25" class="platzi">
+                  </span></a>
+                <nav class="platzicontenedor">
+                  <li><a href="/" aria-label="Our product" title="Our product"
+                      class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400">Platzi</a>
+    
+                  </li>
+                </nav>
+    
+    
+                <nav class="confamacontenedor">
+                  <li><a href="/" aria-label="Product pricing" title="Product pricing"
+                      class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"></a>
+                    <a href=""><span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+                        <img src="img/comfama.jpg" alt="" width="131" class="confama">
+                      </span></a>
+    
+                  </li>
+                </nav>
+    
+    
+                <nav class="campanitacontenedor">
+                  <li><a href="/" aria-label="About us" title="About us"
+                      class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"></a>
+                    <a href=""><span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+                        <img src="img/campana.jpg" alt="" width="40" class="campanita">
+                      </span></a>
+                  </li>
+                </nav>
+    
+    
+                <nav class="mensajescontenedor">
+                  <li><a href="/" aria-label="About us" title="About us"
+                      class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"></a>
+                    <a href=""><span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+                        <img src="img/mensajes.jpg" alt="" width="40" class="mensajes">
+                      </span></a>
+                  </li>
+                </nav>
+    
+    
+                <nav class="ajustescontenedor">
+                  <li><a href="/" aria-label="About us" title="About us"
+                      class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"></a>
+                    <a href=""><span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+                        <img src="img/configuracion.jpg" alt="" width="40" class="ajustes">
+                      </span></a>
+                  </li>
+                </nav>
+    
+                <li>
+    
+                  <nav class="personacontenedor">
+                <li><a href="/" aria-label="Our product" title="Our product"
+                    class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"></a>
+                  <a href=""><span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+                      <img src="img/perfil.jpg" alt="" width="55" class="persona">
+                    </span></a>
+                </li>
+                </nav>
+    
+                </li>
+              </ul>
+    
+    
+            </div>
+          </div>
+        </div>
+        </div>
+      </header>
+
+
+
+    <div class="container">
+        <h2 style="text-align: center;">Reserva de Computadoras</h2>
+        <form>
+           
+
+            <label for="pc">Computadora:</label>
+            <select id="pc">
+                <option value="pc1">PC 1</option>
+                <option value="pc2">PC 2</option>
+                <option value="pc3">PC 3</option>
+                <option value="pc4">PC 4</option>
+                <option value="pc5">PC 5</option>
+                <option value="pc6">PC 6</option>
+                <option value="pc7">PC 7</option>
+                <option value="pc8">PC 8</option>
+                <option value="pc9">PC 9</option>
+                <option value="pc10">PC 10</option>
+            </select>
+
+            <label for="fecha">Fecha de Reserva:</label>
+            <input type="date" id="fecha">
+
+            <label for="hora">Hora de Reserva:</label>
+            <input type="time" id="hora">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Ingresa tu email">
+
+            <button type="submit">Reservar</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
