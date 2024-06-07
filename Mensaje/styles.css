@@ -1,0 +1,94 @@
+header {
+    position: relative;
+    display: wrap;
+  padding-bottom: 0;
+}
+
+.logocontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    left: -76px;
+    top: -8px;
+
+}
+
+.Ticketcontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    left: 143px;
+}
+
+.platzicontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    display: flex;
+    display: wrap;
+    left: 123px;
+}
+
+.confamacontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    top: -12px;
+    left: 110px;
+}
+
+.campanitacontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    top: -9px;
+    left: 134px;
+
+}
+
+.mensajescontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    top: -10px;
+    left: 110px;
+}
+
+.ajustescontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    left: 86px;
+    top: -11px;
+}
+
+.personacontenedor {
+    position: relative;
+    display: flex;
+    display: wrap;
+    top: -11px;
+    left: 60px;
+}
+
+.platzi {
+    position: absolute;
+    left: 804px;
+    top: 28px;
+}
+
+
+.bg-neutral-900{
+    background-color: #030b07;
+}
+
+
+
+.piePaginacontenedor{
+   
+    position: absolute;
+   
+    left: 104px;
+    top: 580px;
+    
+
+}
