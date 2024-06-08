@@ -81,13 +81,17 @@ header {
     position: absolute;
     left: 804px;
     top: 28px;
+    
+}
+.bg-neutral-900{
+    background-color: #030b07;
 }
 
-.confama {
+/* .confama {
     /* position: absolute; */
     /* left: 850px;
     top:35px ; */
-}
+/* } */ */
 
 .contec {
     display: flex;
@@ -314,4 +318,15 @@ header {
 
 img {
     gap: 10px;
+}
+/* ---------------------------------------------- */
+
+.piePaginacontenedor{
+   
+    position: absolute;
+   
+    left: 104px;
+    top: 790px;
+    
+
 }
