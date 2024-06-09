@@ -132,3 +132,11 @@ header {
 .bg-neutral-900{
     background-color: #030b07;
 }
+.piePaginacontenedor{
+   
+    position: absolute;
+   
+    left: 104px;
+    top: 680px;
+    
+}
